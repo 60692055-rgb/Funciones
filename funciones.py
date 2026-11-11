@@ -27,20 +27,20 @@ for (x,y) in F:
             esInyectiva = False
     rango.add(y)
 
-print("F es inyectiva"if esInyectiva else "F no es inyectiva") 
+print("F es inyectiva"if esInyectiva else "F si es inyectiva") 
 
 esSobreyectiva = False
 if rango == B:
      esSobreyectiva = True
-print("F es sobreyectiva"if esSobreyectiva else "F no es sobreyectiva") 
+print("F es sobreyectiva"if esSobreyectiva else "F si es sobreyectiva") 
 
 esBiyectiva = esInyectiva and esSobreyectiva
 
-print("F es Biyectiva"if esBiyectiva else "F no es Biyectiva") 
+print("F es Biyectiva"if esBiyectiva else "F si es Biyectiva") 
 
 esTotal = False
 
 if dominio == A:
     esTotal = True
 
-print("F es Total"if esTotal else "F no es Total") 
+print("F es Total"if esTotal else "F si es Total") 
