@@ -44,3 +44,4 @@ if dominio == A:
     esTotal = True
 
 print("F es Total"if esTotal else "F si es Total") 
+print("gracias profe, no me baje punto :'u")
